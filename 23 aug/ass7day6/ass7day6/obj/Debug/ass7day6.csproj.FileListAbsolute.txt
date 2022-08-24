@@ -1,8 +1,0 @@
-D:\c#\basic codes\ConsoleApp1\ass7day6\ass7day6\bin\Debug\ass7day6.exe.config
-D:\c#\basic codes\ConsoleApp1\ass7day6\ass7day6\bin\Debug\ass7day6.exe
-D:\c#\basic codes\ConsoleApp1\ass7day6\ass7day6\bin\Debug\ass7day6.pdb
-D:\c#\basic codes\ConsoleApp1\ass7day6\ass7day6\obj\Debug\ass7day6.csproj.AssemblyReference.cache
-D:\c#\basic codes\ConsoleApp1\ass7day6\ass7day6\obj\Debug\ass7day6.csproj.SuggestedBindingRedirects.cache
-D:\c#\basic codes\ConsoleApp1\ass7day6\ass7day6\obj\Debug\ass7day6.csproj.CoreCompileInputs.cache
-D:\c#\basic codes\ConsoleApp1\ass7day6\ass7day6\obj\Debug\ass7day6.exe
-D:\c#\basic codes\ConsoleApp1\ass7day6\ass7day6\obj\Debug\ass7day6.pdb
