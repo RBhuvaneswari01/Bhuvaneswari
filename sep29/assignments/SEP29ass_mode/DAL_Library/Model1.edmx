@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="Model1.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="Model1StoreContainer">
+    <EntitySet Name="borrowers" EntityType="Model1.Store.borrowers" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="loans" EntityType="Model1.Store.loans" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="borrowerloan" Association="Model1.Store.borrowerloan">
+      <End Role="borrower" EntitySet="borrowers" />
+      <End Role="loan" EntitySet="loans" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="borrowers">
+    <Key>
+      <PropertyRef Name="b_Id" />
+    </Key>
+    <Property Name="b_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="b_name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="b_city" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="b_state" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="b_country" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="loans">
+    <Key>
+      <PropertyRef Name="l_Id" />
+    </Key>
+    <Property Name="l_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="l_type" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="l_amount" Type="int" Nullable="false" />
+    <Property Name="l_duration" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="l_roi" Type="int" Nullable="false" />
+    <Property Name="borrower_b_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="borrowerloan">
+    <End Role="borrower" Type="Model1.Store.borrowers" Multiplicity="1" />
+    <End Role="loan" Type="Model1.Store.loans" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="borrower">
+        <PropertyRef Name="b_Id" />
+      </Principal>
+      <Dependent Role="loan">
+        <PropertyRef Name="borrower_b_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Model1" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+        <EntityContainer Name="Model1Container" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="borrowers" EntityType="Model1.borrower" />
+          <EntitySet Name="loans" EntityType="Model1.loan" />
+          <AssociationSet Name="borrowerloan" Association="Model1.borrowerloan">
+            <End Role="borrower" EntitySet="borrowers" />
+            <End Role="loan" EntitySet="loans" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="borrower">
+          <Key>
+            <PropertyRef Name="b_Id" />
+          </Key>
+          <Property Name="b_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="b_name" Type="String" Nullable="false" />
+          <Property Name="b_city" Type="String" Nullable="false" />
+          <Property Name="b_state" Type="String" Nullable="false" />
+          <Property Name="b_country" Type="String" Nullable="false" />
+          <NavigationProperty Name="loans" Relationship="Model1.borrowerloan" FromRole="borrower" ToRole="loan" />
+        </EntityType>
+        <EntityType Name="loan">
+          <Key>
+            <PropertyRef Name="l_Id" />
+          </Key>
+          <Property Name="l_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="l_type" Type="String" Nullable="false" />
+          <Property Name="l_amount" Type="Int32" Nullable="false" />
+          <Property Name="l_duration" Type="String" Nullable="false" />
+          <Property Name="l_roi" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="borrower" Relationship="Model1.borrowerloan" FromRole="loan" ToRole="borrower" />
+          <Property Name="borrower_b_Id" Type="Int32" Nullable="false" />
+        </EntityType>
+        <Association Name="borrowerloan">
+          <End Type="Model1.borrower" Role="borrower" Multiplicity="1" />
+          <End Type="Model1.loan" Role="loan" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="borrower">
+              <PropertyRef Name="b_Id" />
+            </Principal>
+            <Dependent Role="loan">
+              <PropertyRef Name="borrower_b_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+    <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Model1StoreContainer" CdmEntityContainer="Model1Container">
+    <EntitySetMapping Name="borrowers">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.borrower)">
+        <MappingFragment StoreEntitySet="borrowers">
+          <ScalarProperty Name="b_Id" ColumnName="b_Id" />
+          <ScalarProperty Name="b_name" ColumnName="b_name" />
+          <ScalarProperty Name="b_city" ColumnName="b_city" />
+          <ScalarProperty Name="b_state" ColumnName="b_state" />
+          <ScalarProperty Name="b_country" ColumnName="b_country" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="loans">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.loan)">
+        <MappingFragment StoreEntitySet="loans">
+          <ScalarProperty Name="l_Id" ColumnName="l_Id" />
+          <ScalarProperty Name="l_type" ColumnName="l_type" />
+          <ScalarProperty Name="l_amount" ColumnName="l_amount" />
+          <ScalarProperty Name="l_duration" ColumnName="l_duration" />
+          <ScalarProperty Name="l_roi" ColumnName="l_roi" />
+          <ScalarProperty Name="borrower_b_Id" ColumnName="borrower_b_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping></edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+        <DesignerProperty Name="UseLegacyProvider" Value="False" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

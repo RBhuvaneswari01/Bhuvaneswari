@@ -1,0 +1,8 @@
+D:\c#\basic codes\ConsoleApp1\SEP29ass_mode\SEP29ass_mode\bin\Debug\SEP29ass_mode.exe.config
+D:\c#\basic codes\ConsoleApp1\SEP29ass_mode\SEP29ass_mode\bin\Debug\SEP29ass_mode.exe
+D:\c#\basic codes\ConsoleApp1\SEP29ass_mode\SEP29ass_mode\bin\Debug\SEP29ass_mode.pdb
+D:\c#\basic codes\ConsoleApp1\SEP29ass_mode\SEP29ass_mode\obj\Debug\SEP29ass_mode.csproj.AssemblyReference.cache
+D:\c#\basic codes\ConsoleApp1\SEP29ass_mode\SEP29ass_mode\obj\Debug\SEP29ass_mode.csproj.SuggestedBindingRedirects.cache
+D:\c#\basic codes\ConsoleApp1\SEP29ass_mode\SEP29ass_mode\obj\Debug\SEP29ass_mode.csproj.CoreCompileInputs.cache
+D:\c#\basic codes\ConsoleApp1\SEP29ass_mode\SEP29ass_mode\obj\Debug\SEP29ass_mode.exe
+D:\c#\basic codes\ConsoleApp1\SEP29ass_mode\SEP29ass_mode\obj\Debug\SEP29ass_mode.pdb

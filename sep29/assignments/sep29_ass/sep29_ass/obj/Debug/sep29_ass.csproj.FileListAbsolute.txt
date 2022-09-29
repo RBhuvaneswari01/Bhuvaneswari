@@ -1,0 +1,16 @@
+D:\c#\basic codes\ConsoleApp1\sep29_ass\sep29_ass\bin\Debug\sep29_ass.exe.config
+D:\c#\basic codes\ConsoleApp1\sep29_ass\sep29_ass\bin\Debug\sep29_ass.exe
+D:\c#\basic codes\ConsoleApp1\sep29_ass\sep29_ass\bin\Debug\sep29_ass.pdb
+D:\c#\basic codes\ConsoleApp1\sep29_ass\sep29_ass\obj\Debug\sep29_ass.csproj.AssemblyReference.cache
+D:\c#\basic codes\ConsoleApp1\sep29_ass\sep29_ass\obj\Debug\sep29_ass.csproj.SuggestedBindingRedirects.cache
+D:\c#\basic codes\ConsoleApp1\sep29_ass\sep29_ass\obj\Debug\sep29_ass.csproj.CoreCompileInputs.cache
+D:\c#\basic codes\ConsoleApp1\sep29_ass\sep29_ass\obj\Debug\sep29_ass.exe
+D:\c#\basic codes\ConsoleApp1\sep29_ass\sep29_ass\obj\Debug\sep29_ass.pdb
+D:\c#\basic codes\ConsoleApp1\sep29_ass\sep29_ass\bin\Debug\DAL_Library.dll
+D:\c#\basic codes\ConsoleApp1\sep29_ass\sep29_ass\bin\Debug\DAL_Library.pdb
+D:\c#\basic codes\ConsoleApp1\sep29_ass\sep29_ass\obj\Debug\sep29_ass.csproj.CopyComplete
+D:\c#\basic codes\ConsoleApp1\sep29_ass\sep29_ass\bin\Debug\EntityFramework.dll
+D:\c#\basic codes\ConsoleApp1\sep29_ass\sep29_ass\bin\Debug\EntityFramework.SqlServer.dll
+D:\c#\basic codes\ConsoleApp1\sep29_ass\sep29_ass\bin\Debug\DAL_Library.dll.config
+D:\c#\basic codes\ConsoleApp1\sep29_ass\sep29_ass\bin\Debug\EntityFramework.xml
+D:\c#\basic codes\ConsoleApp1\sep29_ass\sep29_ass\bin\Debug\EntityFramework.SqlServer.xml
