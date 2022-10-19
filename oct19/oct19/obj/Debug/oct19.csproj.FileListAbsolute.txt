@@ -1,0 +1,6 @@
+D:\c#\basic codes\ConsoleApp1\oct19\oct19\bin\Debug\oct19.dll
+D:\c#\basic codes\ConsoleApp1\oct19\oct19\bin\Debug\oct19.pdb
+D:\c#\basic codes\ConsoleApp1\oct19\oct19\obj\Debug\oct19.csproj.AssemblyReference.cache
+D:\c#\basic codes\ConsoleApp1\oct19\oct19\obj\Debug\oct19.csproj.CoreCompileInputs.cache
+D:\c#\basic codes\ConsoleApp1\oct19\oct19\obj\Debug\oct19.dll
+D:\c#\basic codes\ConsoleApp1\oct19\oct19\obj\Debug\oct19.pdb
