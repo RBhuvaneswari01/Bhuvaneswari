@@ -1,0 +1,6 @@
+D:\c#\basic codes\ConsoleApp1\sep27ass\Disconnected_BLL\bin\Debug\Disconnected_BLL.dll
+D:\c#\basic codes\ConsoleApp1\sep27ass\Disconnected_BLL\bin\Debug\Disconnected_BLL.pdb
+D:\c#\basic codes\ConsoleApp1\sep27ass\Disconnected_BLL\obj\Debug\Disconnected_BLL.csproj.AssemblyReference.cache
+D:\c#\basic codes\ConsoleApp1\sep27ass\Disconnected_BLL\obj\Debug\Disconnected_BLL.csproj.CoreCompileInputs.cache
+D:\c#\basic codes\ConsoleApp1\sep27ass\Disconnected_BLL\obj\Debug\Disconnected_BLL.dll
+D:\c#\basic codes\ConsoleApp1\sep27ass\Disconnected_BLL\obj\Debug\Disconnected_BLL.pdb

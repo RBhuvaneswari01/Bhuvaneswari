@@ -1,0 +1,16 @@
+D:\c#\basic codes\ConsoleApp1\sep27ass\sep27ass\bin\Debug\sep27ass.exe.config
+D:\c#\basic codes\ConsoleApp1\sep27ass\sep27ass\bin\Debug\sep27ass.exe
+D:\c#\basic codes\ConsoleApp1\sep27ass\sep27ass\bin\Debug\sep27ass.pdb
+D:\c#\basic codes\ConsoleApp1\sep27ass\sep27ass\obj\Debug\sep27ass.csproj.AssemblyReference.cache
+D:\c#\basic codes\ConsoleApp1\sep27ass\sep27ass\obj\Debug\sep27ass.csproj.SuggestedBindingRedirects.cache
+D:\c#\basic codes\ConsoleApp1\sep27ass\sep27ass\obj\Debug\sep27ass.csproj.CoreCompileInputs.cache
+D:\c#\basic codes\ConsoleApp1\sep27ass\sep27ass\obj\Debug\sep27ass.exe
+D:\c#\basic codes\ConsoleApp1\sep27ass\sep27ass\obj\Debug\sep27ass.pdb
+D:\c#\basic codes\ConsoleApp1\sep27ass\sep27ass\bin\Debug\Disconnected_BLL.dll
+D:\c#\basic codes\ConsoleApp1\sep27ass\sep27ass\bin\Debug\Disconnected_helper.dll
+D:\c#\basic codes\ConsoleApp1\sep27ass\sep27ass\bin\Debug\Disconnected_BLL.pdb
+D:\c#\basic codes\ConsoleApp1\sep27ass\sep27ass\bin\Debug\Disconnected_helper.pdb
+D:\c#\basic codes\ConsoleApp1\sep27ass\sep27ass\obj\Debug\sep27ass.csproj.CopyComplete
+D:\c#\basic codes\ConsoleApp1\sep27ass\sep27ass\bin\Debug\Disconnected_DAL.dll
+D:\c#\basic codes\ConsoleApp1\sep27ass\sep27ass\bin\Debug\Disconnected_DAL.pdb
+D:\c#\basic codes\ConsoleApp1\sep27ass\sep27ass\bin\Debug\Disconnected_DAL.dll.config

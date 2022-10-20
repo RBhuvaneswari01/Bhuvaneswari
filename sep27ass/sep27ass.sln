@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sep27ass", "sep27ass\sep27ass.csproj", "{3382F7F1-8A48-4642-AD1B-42608BC47A99}"
+	ProjectSection(ProjectDependencies) = postProject
+		{352B73A3-49D9-467B-B05E-1740851C4331} = {352B73A3-49D9-467B-B05E-1740851C4331}
+		{42DF471F-BFA7-4F15-BC19-25B901B63744} = {42DF471F-BFA7-4F15-BC19-25B901B63744}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Disconnected_BLL", "Disconnected_BLL\Disconnected_BLL.csproj", "{42DF471F-BFA7-4F15-BC19-25B901B63744}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6742B612-403F-41A4-8B14-B5D3DF0CB726} = {6742B612-403F-41A4-8B14-B5D3DF0CB726}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Disconnected_DAL", "Disconnected_DAL\Disconnected_DAL.csproj", "{6742B612-403F-41A4-8B14-B5D3DF0CB726}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Disconnected_helper", "Disconnected_helper\Disconnected_helper.csproj", "{352B73A3-49D9-467B-B05E-1740851C4331}"
+	ProjectSection(ProjectDependencies) = postProject
+		{42DF471F-BFA7-4F15-BC19-25B901B63744} = {42DF471F-BFA7-4F15-BC19-25B901B63744}
+		{6742B612-403F-41A4-8B14-B5D3DF0CB726} = {6742B612-403F-41A4-8B14-B5D3DF0CB726}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3382F7F1-8A48-4642-AD1B-42608BC47A99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3382F7F1-8A48-4642-AD1B-42608BC47A99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3382F7F1-8A48-4642-AD1B-42608BC47A99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3382F7F1-8A48-4642-AD1B-42608BC47A99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42DF471F-BFA7-4F15-BC19-25B901B63744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42DF471F-BFA7-4F15-BC19-25B901B63744}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42DF471F-BFA7-4F15-BC19-25B901B63744}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42DF471F-BFA7-4F15-BC19-25B901B63744}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6742B612-403F-41A4-8B14-B5D3DF0CB726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6742B612-403F-41A4-8B14-B5D3DF0CB726}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6742B612-403F-41A4-8B14-B5D3DF0CB726}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6742B612-403F-41A4-8B14-B5D3DF0CB726}.Release|Any CPU.Build.0 = Release|Any CPU
+		{352B73A3-49D9-467B-B05E-1740851C4331}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{352B73A3-49D9-467B-B05E-1740851C4331}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{352B73A3-49D9-467B-B05E-1740851C4331}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{352B73A3-49D9-467B-B05E-1740851C4331}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A08F2DDB-9D71-404C-80A9-65B2F3FE52CC}
+	EndGlobalSection
+EndGlobal
