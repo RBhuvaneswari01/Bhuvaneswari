@@ -1,0 +1,6 @@
+D:\c#\basic codes\ConsoleApp1\CalculatorLibJenkinsDemo\CalculatorLibJenkinsDemo\bin\Debug\CalculatorLibJenkinsDemo.dll
+D:\c#\basic codes\ConsoleApp1\CalculatorLibJenkinsDemo\CalculatorLibJenkinsDemo\bin\Debug\CalculatorLibJenkinsDemo.pdb
+D:\c#\basic codes\ConsoleApp1\CalculatorLibJenkinsDemo\CalculatorLibJenkinsDemo\obj\Debug\CalculatorLibJenkinsDemo.csproj.AssemblyReference.cache
+D:\c#\basic codes\ConsoleApp1\CalculatorLibJenkinsDemo\CalculatorLibJenkinsDemo\obj\Debug\CalculatorLibJenkinsDemo.csproj.CoreCompileInputs.cache
+D:\c#\basic codes\ConsoleApp1\CalculatorLibJenkinsDemo\CalculatorLibJenkinsDemo\obj\Debug\CalculatorLibJenkinsDemo.dll
+D:\c#\basic codes\ConsoleApp1\CalculatorLibJenkinsDemo\CalculatorLibJenkinsDemo\obj\Debug\CalculatorLibJenkinsDemo.pdb
