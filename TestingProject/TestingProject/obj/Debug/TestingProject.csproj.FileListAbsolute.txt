@@ -1,0 +1,8 @@
+D:\c#\basic codes\ConsoleApp1\TestingProject\TestingProject\bin\Debug\TestingProject.exe.config
+D:\c#\basic codes\ConsoleApp1\TestingProject\TestingProject\bin\Debug\TestingProject.exe
+D:\c#\basic codes\ConsoleApp1\TestingProject\TestingProject\bin\Debug\TestingProject.pdb
+D:\c#\basic codes\ConsoleApp1\TestingProject\TestingProject\obj\Debug\TestingProject.csproj.AssemblyReference.cache
+D:\c#\basic codes\ConsoleApp1\TestingProject\TestingProject\obj\Debug\TestingProject.csproj.SuggestedBindingRedirects.cache
+D:\c#\basic codes\ConsoleApp1\TestingProject\TestingProject\obj\Debug\TestingProject.csproj.CoreCompileInputs.cache
+D:\c#\basic codes\ConsoleApp1\TestingProject\TestingProject\obj\Debug\TestingProject.exe
+D:\c#\basic codes\ConsoleApp1\TestingProject\TestingProject\obj\Debug\TestingProject.pdb

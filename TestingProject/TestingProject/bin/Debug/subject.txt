@@ -1,0 +1,5 @@
+telugu-8
+hindi-3
+english-4
+maths-5
+science 6-6
